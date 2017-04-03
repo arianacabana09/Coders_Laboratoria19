@@ -1,0 +1,27 @@
+if (selection.value == "promoChile") {
+  for (var i = 0; i < cChile.length; i++) {
+    cChile[i].style.display = "block";
+  }
+  for (var i = 0; i < cLima.length; i++) {
+    cLima[i].style.visibility = "hidden";
+  }
+  for (var i = 0; i < cLima2.length; i++) {
+    cLima2[i].style.visibility = "hidden";
+  }
+  console.log(cChile[0]);
+}
+
++++++++++++++++++++++++++++++++
+
+else if (selection.value == "promoLima") {
+  // cLima.style.display = 'block';
+  // cLima2.style.display = 'none';
+  // cChile.style.display = 'none';
+  console.log(cLima[0]);
++++++++++++++++++++++++++++++++++++
+for (var i = 0; i < cChile.length; i++) {
+  cChile[i].style.display = "block";
+  cLima[i].style.visibility = "hidden";
+  cLima2[i].style.visibility = "hidden";
+}
+//console.log(cChile[0]);
